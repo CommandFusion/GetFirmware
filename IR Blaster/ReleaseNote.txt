@@ -1,0 +1,47 @@
+IRBlaster
+Version 1.2.3
+1. Beta test first released.
+
+Version 1.2.4 (10/2/2012)
+1. Fixed:RAW CCF codes it is always rejected with a 453 invalid code
+2. Enable TGT commmand for IRBlaster. 
+
+version 1.3.0
+1. Added: optional IR Repeat Count parameter to end of MEM
+2. Enables ir code to be transmitted using repeat count.
+
+version 1.3.1
+1. Changed from TCFXIRW to CCFXIRW
+
+version 1.4.0
+1. Added Common Eeprom version to keep EEPROM(Common) data valid through firmware updates. 
+   version = 0x00000001
+2. Added Device Eeprom version to keep EEPROM(Device specific) data valid through firmware updates.
+   version = 0x00000001
+
+version 1.4.1
+1. Move RS232_Init() from DemoApp.c to IRBlaster.c. (Release for production dated 19/3/2012)
+
+version 1.4.3
+1. Change CCFXRLS to CCFXRLW 
+2. Change QCFXRLS to QCFXRLR	
+
+version 1.4.5
+1. Optimize .irx file format. Adding checksum.
+
+version 1.4.6
+1. Lower down SPIEEPROM bus freq to 5Mhz for reliability.
+2. Added CCFXRLD for rules delete	
+
+version 1.4.7
+1. Added QCFXIRF for retrieving IR functions.
+1. Added QCFXIRD for retrieving IR devices.
+
+version 1.4.8
+1. Change the behaviour of ir activity led flashes.
+
+version 1.5.0
+1. Redefinition of CFIR entry’s structure.
+2. Change all ASCII hex data into binary.
+3. 256 byte block is now transported as 512 bytes.
+4. Support maximum of 128 CFIR entries.

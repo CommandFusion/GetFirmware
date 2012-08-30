@@ -1,0 +1,62 @@
+LANBridge
+Version 0.0.31
+ 1.	Rules 1.0.6 is implemented.
+ 2.	RLD command is implemented.
+ 3.	Improvement on serial data handling.
+ 
+Version 0.0.30
+1.	Rules 1.0.5.
+2.	wNumRulesAvailable is omitted.
+3.	Solve bugs on restore factory settings.
+4.	Solve bug on Rules File Retrieval.
+
+Version 0.0.29
+1.	Rules 1.0.4 is implemented.
+2.	System doesn't need to reset even though a new set of rules is updated
+
+Version 0.0.28
+1.	EEPROM versioning is implemented
+ 
+Version V0.0.27
+1.	Major rework on memory management
+2.	Slot 11 default port number is changed to 10207
+3.	Added default Slot 12 Settings
+
+Version 0.0.26
+1.	Rules command is changed, CCFXRLW is to write the Rules to the device,
+	while QCFXRLR is to read the rules from the device.
+	
+Version 0.0.25
+1.	Fixes in Rules.
+2.	LANBridge bugs on dynamic memory allocation.
+3.	Solve TCP Client reconnect timeout
+4.	Device announce based on TGT IDs
+5.	Rules v1.0.3 implemented
+6.	Should have set the rules validity in EEPROM to invalid Rules if the Rules Downloader is initiated
+
+Version 0.0.24
+1.	Added Rules V1.0.1
+Version 0.0.23
+1.	On board COM mode add, OFF mode
+2.	Solve bug on message Error Handling function
+3.	Solve bug in CLANSPC command
+4.	Solve bug in RLANSPC reply packet
+5.	Modify Setup Button during application run time, for on board COM Mode
+
+Version 0.0.22
+1.	Bug fix for Ethernet Slots pass through mode
+
+Version 0.0.21
+1.	Bug fix for TME command, should have offset the UTC
+2.	IP address bounding LED, reduce to 1s flash as per Jarrod request
+3.	Application specific EEPROM starts on 0x1000
+4.	Added DNS command, and NTP sync on TME command
+
+Version 0.0.20
+1.	Added TCP/IP type on SLT reply.
+
+Version 0.0.19
+1.	Overall functionalities have been implemented, except for
+	a.	MAC command is yet to implement
+	b.	Scheduler is yet to implement
+2.	Rules are included in both incoming and outgoing message but a full test is needed.

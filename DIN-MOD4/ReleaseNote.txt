@@ -1,0 +1,82 @@
+DIN-MOD4
+Version 1.3.1
+1. Beta test first released.
+
+Version 1.5.1 (14/2/2012)
+1. Fixed:Factory reset power LED flashes differently on DIN-MOD4 and family products. Should be consistent.
+
+version 1.6.0
+1. newfeature:Test buttons for IR8 should send an IR signal to flash emitter.
+2. newfeature:Test buttons for COM4 module should be configurable to send a specific string.
+3. static char process_testbtn_event(UINT8 slot,UINT8 port) is removed for RY.c
+
+version 1.7.0
+1. Added: optional IR Repeat Count parameter to end of MEM
+2. Enables ir code to be transmitted using repeat count.
+
+version 1.8.0
+1. Added: CHA and STA reply for digital input
+2. Added: CHA reply for IO8's dry contact mode.
+
+version 1.9.0
+1. Added: RULES ENABLED.
+
+version 1.9.1
+1. Added: Change TCFXIRW to CCFXIRW.
+
+version 1.9.2
+1. Fixed: IO8 LED mode on state always starts with LED output on, even if configured to be off.
+
+version 1.10.0
+1. Added Common Eeprom version to keep EEPROM(Common) data valid through firmware updates. 
+   version = 0x00000001
+2. Added Device Eeprom version to keep EEPROM(Device specific) data valid through firmware updates.
+   version = 0x00000001
+
+version 1.10.1
+1. Move RS232_Init() from DemoApp.c to DINMOD4.c. (Release for production dated 19/3/2012)
+
+version 1.10.2
+1. Fixed IO bugs when saving. (Release for production dated 23/3/2012)
+
+version 1.10.3
+1. Change CCFXRLS to CCFXRLW 
+2. Change QCFXRLS to QCFXRLR		
+
+version 1.10.4
+1. Optimize .irx file format. This including adding checksum to the file for robustness.
+
+version 1.10.5
+1. Lower down SPIEEPROM bus freq to 5Mhz for reliability.
+
+version 1.10.6
+1. Added CCFXRLD for rules delete
+
+version 1.10.7
+1. Added QCFXIRF for retrieving IR functions.
+1. Added QCFXIRD for retrieving IR devices.
+
+version 1.10.8
+1. Lower down COM4 SPI data rate and added delays before CS is asserted/de-asserted. 
+
+version 1.11.0
+1. Added New Feature: Hot-Plugging. Allows user to remove/plug in modules without having to 
+   rebooting DIN-MOD4. 
+
+version 1.12.0
+1. Added New Feature: DIGITAL_VIN for IO8
+
+version 1.13.0
+1. Added New Feature: VIDEO SENSING input for IO8
+
+version 1.14.0
+1. Make reporting of IO error code more specific and descriptive. 
+
+   CFIRX file format:
+1. Redefinition of CFIR entry’s structure.
+2. Change all ASCII hex data into binary.
+3. 256 byte block is now transported as 512 bytes.
+4. Support maximum of 128 CFIR entries.
+
+version 1.14.1
+1. Parsing hex bytes into \x for TMODSPW commands.

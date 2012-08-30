@@ -1,0 +1,21 @@
+IRLearner
+Version 1.0.3
+1. Beta test first released.
+
+Version 1.0.4 (3/2/2012)
+1. Fixed:IR Learner - Activity light never gets used. When IR is detected or sent, the Ready light is used by mistake.
+2. Fixed:IR Learner instant timeout.
+3. Increase maximum learning timeout from 8 secs to 20 secs.
+4. Allows device ID set to 0x01 and 0xFF.
+
+version 1.0.5 (8/2/2012)
+1. Fixed:Sending IR via RAW command requires a space at the end of the CCF code. This is a bug.
+2. Fixed:IR Learner - sending RAW data always returns an error.
+
+version 1.0.6
+1. Added Header_Length,Repeater_Length to STR ircode.
+2. Enables ir code to be transmitted using repeat count. 
+
+version 1.1.0
+1. Rework on IR Learning engine. Now learning function is done in interrupt routine.
+2. Fixed: IR transmitting bug. 

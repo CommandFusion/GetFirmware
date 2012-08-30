@@ -1,0 +1,39 @@
+SW16
+Version 1.0.10
+1.	Rules V1.0.7 is implemented.
+	Solve bug on memory handling.
+
+Version 1.0.9
+1.	Rules V1.0.6 is implemented.
+2.	RLD Command is implemented.
+
+Version 1.0.8
+1.	Rules V1.0.5 is implemented.
+2. 	Solve bug on Rules File Retrieval.
+
+Version 1.0.7
+1.	System doesn't need to restart when a new set of rules is updated
+
+Version 1.0.6
+1.	EEPROM Version number checking is included.
+
+Version 1.0.5
+1.	Rules Command changed, CCFXRLW to write Rules to device, while QCFXRLR is to read Rules from device.
+	
+Version 1.0.4
+1. Rules Version 1.0.3 is implemented
+	a) Rules retrieval is implemented
+
+Version 1.0.3
+1.	QCFXRLC is implemented but yet to test
+2.	Should have set the rules validity in EEPROM to invalid Rules if the Rules Downloader is initiated
+
+Version 1.0.2
+1.	STA reply is omitted during switch pressed
+2.	Rules V1.0.1 is implemented
+
+Version 1.0.1
+1.	Overall functionalities have been implemented, except for
+	a.	MAC command is yet to implement
+2.	Rules are included in both incoming and outgoing message but a full test is needed.
+3.	The last state of Backlight LEDs are stored, but not to 16 LEDs.
