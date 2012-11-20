@@ -45,3 +45,16 @@ version 1.5.0
 2. Change all ASCII hex data into binary.
 3. 256 byte block is now transported as 512 bytes.
 4. Support maximum of 128 CFIR entries.
+
+version 1.6.0
+1. IRRules Implementation.
+2. Added QCFXRRR and CCFXRRW for irrules transfer.
+
+version 1.6.1
+1. Enables P02 receiving.					
+
+version 1.6.2
+1. Enables PZZ receiving.		
+
+version 1.7.0
+1. Integrate with RULES_VER 1.0.8	
