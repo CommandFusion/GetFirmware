@@ -57,4 +57,10 @@ version 1.6.2
 1. Enables PZZ receiving.		
 
 version 1.7.0
-1. Integrate with RULES_VER 1.0.8	
+1. Integrate with RULES_VER 1.0.8
+	
+version 1.7.1b
+1. Added CCFXIRC for deleting IR Files.
+2. Added CCFXRRD for deleting IR Rules.
+3. Allows IRRule to define commands to other devices in the same CFLink485 network.
+4. Reinitialize the IRRule each time a new CFIRRLS file is uploaded. 
