@@ -80,3 +80,8 @@ version 1.14.0
 
 version 1.14.1
 1. Parsing hex bytes into \x for TMODSPW commands.
+
+version 1.14.4b
+1. Added Query command (QCFXSTA/QMODSTA) for on-board digital input status.
+2. Parsing hex bytes into \x for TCOMSPW commands.
+3. Added CCFXIRD/CMODIRD for deleting IR devices.
