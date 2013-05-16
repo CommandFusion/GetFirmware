@@ -82,3 +82,8 @@ version 1.10.3
 
 version 1.10.4b
 1. Added CCFXIRC/CMINIRC for deleting IR files.
+
+version 1.10.5b
+1. Fixed the firmware update issue. The firmware released in v1.10.4b was built in DEBUG mode and 
+   thus some portion of the program memory was corrupted during the conversion process. Fixed by 
+   rebuilding the files in RELEASE mode.
