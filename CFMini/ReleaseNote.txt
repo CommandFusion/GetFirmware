@@ -79,3 +79,6 @@ version 1.10.2
 
 version 1.10.3
 1. Fixed Upload IR File issue: keep getting Invalid Payload Field error for the CFXIRW command
+
+version 1.10.4b
+1. Added CCFXIRC/CMINIRC for deleting IR files.
