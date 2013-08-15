@@ -59,8 +59,14 @@ version 1.6.2
 version 1.7.0
 1. Integrate with RULES_VER 1.0.8
 	
-version 1.7.1b
+version 1.7.1
 1. Added CCFXIRC for deleting IR Files.
 2. Added CCFXRRD for deleting IR Rules.
 3. Allows IRRule to define commands to other devices in the same CFLink485 network.
-4. Reinitialize the IRRule each time a new CFIRRLS file is uploaded. 
+4. Reinitialize the IRRule each time a new CFIRRLS file is uploaded.
+
+version 1.7.2
+1. Fixes: when no IR Rules are present:
+		a)Automatically disable IR Receiving port to prevent blocking.
+		b)returns "END" when query command is received, not ERR.
+ 
