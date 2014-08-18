@@ -4,6 +4,12 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.0.3    18/8/2014    Rename CFEventAndDelegates.c to CFTaskManager.
+ *                       Some improvements on CFTaskManager and ModuleManager.c 
+ *                       to enable hot swapping on external modules.
+ *                       Added assert macro for firmware diagnostic.
+ * 1.0.2    12/8/2014    Enable device factory reset by pressing SETUP and RESET on
+ *                       device power up.
  * 1.0.1     8/8/2014    Added IR learning capability through onboard IR receiver.
  * 1.0.0     7/8/2014    CFSOLO firmware first release.
  ******************************************************************************/
