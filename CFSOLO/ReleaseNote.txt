@@ -4,6 +4,7 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.0.6    09/9/2014    Fixed websocket transmit buffer handling bug.
  * 1.0.5    02/9/2014    Fixed Firmware crashes when STR IR data is invalid.
  *                       Rework on TCFXSPW.
  * 1.0.4    26/8/2014    Some minor fixes for CARD-LRY3.
