@@ -4,6 +4,15 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.0.9    22/9/2014    Added features:
+ *                       1. WHO message wil be sent out when the plugin card is changed (added or removed).
+ *                       2. Remove all unwanted data in the UDP transmit buffer when the device hasn't obtain
+  *                         a valid IP address.
+ * 1.0.8    22/9/2014    1. The dry contact debounce period has been reduced to 100ms to
+ *                          ensure any quick pulse below 100ms is read as undesired glitch
+ *                          and it will be ignored.
+ *                       2. Enable "TCFXSTP" (stop macro) command with no macro name to
+ *                          stop all running macros.
  * 1.0.7    10/9/2014    Added support for both window and linux line ending CFX file.
  * 1.0.6    9/9/2014     Fixes on Websocket transmitter buffer.
  * 1.0.5    02/9/2014    Fixed Firmware crashes when STR IR data is invalid.
