@@ -4,6 +4,7 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.0.11   22/9/2014    Resolve firmware QIRXSND bug.
  * 1.0.10   22/9/2014    Minor fix on reporting the dry contact states change. The reply
  *                       should be RSOLCHA instead of RSOLSTA.
  * 1.0.9    22/9/2014    Added features:
