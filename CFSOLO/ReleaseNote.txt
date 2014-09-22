@@ -4,10 +4,12 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.0.10   22/9/2014    Minor fix on reporting the dry contact states change. The reply
+ *                       should be RSOLCHA instead of RSOLSTA.
  * 1.0.9    22/9/2014    Added features:
  *                       1. WHO message wil be sent out when the plugin card is changed (added or removed).
  *                       2. Remove all unwanted data in the UDP transmit buffer when the device hasn't obtain
-  *                         a valid IP address.
+ *                          a valid IP address.
  * 1.0.8    22/9/2014    1. The dry contact debounce period has been reduced to 100ms to
  *                          ensure any quick pulse below 100ms is read as undesired glitch
  *                          and it will be ignored.
