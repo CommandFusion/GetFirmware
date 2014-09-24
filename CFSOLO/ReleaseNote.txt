@@ -4,6 +4,13 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.0.12   24/9/2014    Added new command for port naming:
+ *                       1. CCOMNAM - configure COM module port name
+ *                       2. QCOMNAM - query COM modole port name
+ *                       3. CIRXNAM - configure IR module port name
+ *                       4. QIRXNAM - query IR module port name
+ *                       5. CRLYNAM - configure relay module port name
+ *                       6. QRLYNAM - query relay module port name
  * 1.0.11   22/9/2014    Resolve firmware QIRXSND bug.
  * 1.0.10   22/9/2014    Minor fix on reporting the dry contact states change. The reply
  *                       should be RSOLCHA instead of RSOLSTA.
