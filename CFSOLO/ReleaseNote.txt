@@ -4,6 +4,7 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.1.0    8/10/2014    Firmware support for CARD-CFLINK plugin card is enabled.
  * 1.0.12   24/9/2014    Added new command for port naming:
  *                       1. CCOMNAM - configure COM module port name
  *                       2. QCOMNAM - query COM modole port name
