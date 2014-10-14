@@ -4,6 +4,9 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.1.2    14/10/2014   Added the Query Macro Name List command QCFXMCL.
+ *                       Added TCFXHTP command to enable CFSOLO to send custom HTTP GET requests
+ *                       to any local or remote HTTP servers,
  * 1.1.1    13/10/2014   Fixed websocket connection close issue when the incoming bytes
  *                       exceeds maximum of 1000 bytes. Also enable TCP/UDP/HTTP server
  *                       to report error code.
