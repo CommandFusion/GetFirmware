@@ -4,6 +4,9 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.1.5    22/10/2014   Rework on the websocket client. This fixes the problem where the reply messages from CFSOLO
+ *                       not able to transmit out from the websocket.
+ *                       Also, a minor bug in port naming was fixed which read from the wrong eeprom location.
  * 1.1.4    21/10/2014   Added websocket client to enable CFSolo remotely configurable.
  *                       CFSolo will first check for the connection flag set in HTTP response after making the announcement,
  *                       then it will attempt to connect to the server via web socket if the flag is 1.
