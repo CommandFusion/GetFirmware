@@ -4,6 +4,12 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.2.1    03/11/2014   Added ability for SOLO to communicate with other Ethernet devices, via 5 unique slot configurations (TCP and UDP).
+ *                       New commands are added for this purpose:
+ *                       1. CCFXSLT - to configure ethernet communication slots.
+ *                       2. QCFXSLT - to query ethernet communication slot's setting.
+ *                       3. TCFXSND - send data to slots.
+ *                       4. RCFXRCV - data received from slots.
  * 1.2.0    29/10/2014   Rework on the DS1338.c and CronScheduler.c for misfired scheduler's events problem.
  *                       Enable SOLO to report it's events to cloud based server www.commandfusion.com via HTTP POST
  *                       at interval of 15 seconds. The default URL would be “http://www.commandfusion.com/projects/hardware/log”.
