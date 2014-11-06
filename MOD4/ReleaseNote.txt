@@ -9,3 +9,6 @@ version 1.14.4
 
 version 1.14.5
 1. Fixed Relay pulse timer overflow issue due to multiplication.
+
+version 1.14.6
+1. Fixed Out of memory issue when loading Rules.
