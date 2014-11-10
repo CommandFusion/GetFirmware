@@ -4,6 +4,10 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.2.2    10/11/2014   Recompile with new compiler setting:
+ *                       1) Optimizing for size (-Os)
+ *                       2) Using -ffunction-sections and -fdata-sections.
+ *                       3) Remove unused sections
  * 1.2.1    03/11/2014   Added ability for SOLO to communicate with other Ethernet devices, via 5 unique slot configurations (TCP and UDP).
  *                       New commands are added for this purpose:
  *                       1. CCFXSLT - to configure ethernet communication slots.
