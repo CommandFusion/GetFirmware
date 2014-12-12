@@ -1,5 +1,8 @@
 IRBlaster
 
+version 1.7.5
+1. Fixed IR MEM database error when uploading.
+
 version 1.7.4
 1. Fixes: IRRule lockup and stop running when a very long ir signal is received. 
           For example, when a button is hold without releasing it.
