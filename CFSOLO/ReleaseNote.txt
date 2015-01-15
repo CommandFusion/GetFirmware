@@ -4,6 +4,7 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.2.4    15/01/2015   Adding a few improvements on CARD-COM4 driver firmware.
  * 1.2.3    12/11/2014   Rework on IR Learner transmit buffer.
  * 1.2.2    10/11/2014   Recompile with new compiler setting:
  *                       1) Optimizing for size (-Os)
