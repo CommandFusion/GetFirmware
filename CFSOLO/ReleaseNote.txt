@@ -4,6 +4,11 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.2.5    20/01/2015   1. Minor bug fixes on DAILY type scheduler where it fires the macro
+ *                          about 5 times although no recurring is set in the firmware.
+ *                       2. Redefine new format for serial number.
+ *                          All the LAN based CF devices will be using MAC address AA:BB:CC:DD:EE:FF
+ *                          to generate its serial number using this format: AABBCCDDEEFF
  * 1.2.4    15/01/2015   Adding a few improvements on CARD-COM4 driver firmware.
  * 1.2.3    12/11/2014   Rework on IR Learner transmit buffer.
  * 1.2.2    10/11/2014   Recompile with new compiler setting:
