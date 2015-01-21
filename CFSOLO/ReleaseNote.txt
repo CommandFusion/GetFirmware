@@ -4,6 +4,8 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.2.6    21/01/2015   Enable private hostname setting for cloud reporting and device announce.
+ *                       This is a factory option and not accessible by public.
  * 1.2.5    20/01/2015   1. Minor bug fixes on DAILY type scheduler where it fires the macro
  *                          about 5 times although no recurring is set in the firmware.
  *                       2. Redefine new format for serial number.
