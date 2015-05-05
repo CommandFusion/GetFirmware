@@ -15,6 +15,7 @@ CFSOLO
  *                          dedicated serial port.The debug option can be enabled using CCFXSPC command.
  *                       Bug Fixes:
  *                       1) TCFXSPW fails when serial port is in TCP mode. Only works in 232 mode.
+ *  	                 2) RS232 LED doesn't flash when transmitting serial data.
  * 1.3.3    02/04/2015   Set the default hostname to cc.commandfusion.com (from www.commandfusion.com)
  *                       Change the URL for cloud reporting to "/hardware/log".
  * 1.3.2    29/01/2015   Minor changes on ethernet slot functions:
