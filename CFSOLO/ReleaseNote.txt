@@ -4,6 +4,9 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.4.1    08/05/2015   New Features:
+ *                       1) Enable TCP Bridging for the 5 ethernet slots. It allows up to 10 TCP Clients
+ *                          to connect to the Solo, and route data directly to/from any of the 5 communication slots.
  * 1.4.0    22/04/2015   New Features:
  *                       1) Report the memory usage for macros, schedules, rules, IR rules, and IR files
  *                          using QCFXMEM command. All usage is reported in bytes
