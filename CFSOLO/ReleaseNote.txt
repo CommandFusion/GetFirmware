@@ -4,6 +4,10 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.4.2    11/05/2015   Bug Fixes:
+ *                       1) Change the TCP server bridge listening port for the five ethernet slots.
+ *                          The TCP Servers would be setup on ports 10301 to 10305 (for slots 1-5).
+ *                       2) Change default device name from 'DEFAULT_DEVICE_NAME' to 'Solo'
  * 1.4.1    08/05/2015   New Features:
  *                       1) Enable TCP Bridging for the 5 ethernet slots. It allows up to 10 TCP Clients
  *                          to connect to the Solo, and route data directly to/from any of the 5 communication slots.
