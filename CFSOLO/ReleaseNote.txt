@@ -4,6 +4,13 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.4.4    28/05/2015   Minor Changes:
+ *                       1) Stop sending RSOLRCV logs to Control Center to ease the network traffic.
+ *                       2) Report the log messages to Control Center every 15 secs or when the transmit buffer 
+ *                          is 70% full, whichever comes first
+ * 1.4.3    18/05/2015   Enable transmit/receive data fro TCP/HTTP server when DHCP is in config mode.
+ *                       This is to make sure that the communication will happen when the SOLO is directly
+ *                       connected to PC thru Ethernet cable without using external router/switcher.
  * 1.4.2    11/05/2015   Bug Fixes:
  *                       1) Change the TCP server bridge listening port for the five ethernet slots.
  *                          The TCP Servers would be setup on ports 10301 to 10305 (for slots 1-5).
