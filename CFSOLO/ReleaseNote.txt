@@ -4,6 +4,8 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.4.7    03/06/2015   Bug Fixes:
+ *                       1) SOLO reporting error when the MAX TCP Bridging sockets is set to 10.  
  * 1.4.6    02/06/2015   Rework on the communication buffer handling for Ethernet Slot to improve on its data transfer
  *                       performance and robostness.   
  *                       Re-structure the error codes to stay inline with existing ones. 
