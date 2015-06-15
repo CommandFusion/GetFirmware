@@ -4,6 +4,7 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.5.0    15/06/2015   Add 'Address Names'(0-63) and 'Group Names'(0-15) storage for each DALI channel.
  * 1.4.7    03/06/2015   Bug Fixes:
  *                       1) SOLO reporting error when the MAX TCP Bridging sockets is set to 10.  
  * 1.4.6    02/06/2015   Rework on the communication buffer handling for Ethernet Slot to improve on its data transfer
