@@ -4,6 +4,12 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.5.3    16/07/2015   Bug Fixes:
+ *                       1)  Send custom HTTP GET requests issue (TCFXHTP).
+ *                       Enhancements:
+ *                       1)  Change the netbios name from "CFSOLO" to "CF-SERIALNUM" where SERIALNUM is the 12 bytes 
+ *                           device's serial number. This allows multiple solo units on the same network to be accessed via 
+ *                           Admin webpage. For example: http://CF-123456789ABC   
  * 1.5.2    26/06/2015   Enable local ID (0x00) to facilitate discovery for the first connected device in the device tree.
  * 1.5.1    19/06/2015   Fixed IR Learner reporting issue.
  * 1.5.0    15/06/2015   Add 'Address Names'(0-63) and 'Group Names'(0-15) storage for each DALI channel.
