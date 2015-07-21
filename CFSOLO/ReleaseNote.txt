@@ -5,8 +5,8 @@ CFSOLO
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
  * 1.5.3    16/07/2015   Bug Fixes:
- *                       1)  Send custom HTTP GET requests issue (TCFXHTP).
- * 						 2)  Serial Number generation.
+ *                       1) Send custom HTTP GET requests issue (TCFXHTP).
+ * 						 2) Serial Number generation.
  *                       Enhancements:
  *                       1)  Change the netbios name from "CFSOLO" to "CF-SERIALNUM" where SERIALNUM is the 12 bytes 
  *                           device's serial number. This allows multiple solo units on the same network to be accessed via 
