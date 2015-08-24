@@ -4,6 +4,11 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.5.6    21/08/2015   Minor Changes:
+ *                       1) Add new parameters to UDP announce function to facilitate device discovery.
+ *                       2) Add "Device-Name" header to cloud reporting.
+ *                       Bug Fixes:
+ *                       1) Wrong report string "MZ" when configuring port naming.      
  * 1.5.5    04/08/2015   Update the web upload function v1.1 with new HTTP response codes.
  * 1.5.4    31/07/2015   Enable firmware upload function to CARD-DALI2.
  * 1.5.3    16/07/2015   Bug Fixes:
