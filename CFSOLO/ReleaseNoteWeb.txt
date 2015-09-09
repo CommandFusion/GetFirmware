@@ -2,7 +2,9 @@ CFSOLO - Config Web Pages
 
  /******************************************************************************
  *
- * Version   Date        Comment
+ * Version   Date         Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- * 1.5.2     25/8/2015    CFSOLO config web pages first public release.
+ * 1.5.3     09/09/2015   Fix for startup issues when memory is blank
+                          General UI Fixes
+ * 1.5.2     25/08/2015   CFSOLO config web pages first public release.
  ******************************************************************************/
