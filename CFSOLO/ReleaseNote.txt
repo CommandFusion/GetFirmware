@@ -4,6 +4,7 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.5.8    21/09/2015   Disable Auto-IP in TCPIP stack.    
  * 1.5.7    18/09.2015   Add support for CFG configuration command to configure all network settings in one command(CCFXCFG).
  * 1.5.6    21/08/2015   Minor Changes:
  *                       1) Add new parameters to UDP announce function to facilitate device discovery.
