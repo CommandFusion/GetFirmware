@@ -4,6 +4,8 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.6.2    30/09/2015   1) Add new Common Argument Definitions:
+ *                          a) userVarMatch(VAR_NAME,STRING) - to Check if a user variable matches a given string value.
  * 1.6.1    28/09/2015   1) Rename CFLink Command for User variables:
  *                          a) QVARGET - get single user variable
  *                          b) CVARSET - create, edit user variable 
