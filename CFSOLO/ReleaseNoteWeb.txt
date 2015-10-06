@@ -4,6 +4,11 @@ CFSOLO - Config Web Pages
  *
  * Version   Date         Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.6.6     07/10/2015   Add User Variable storage support
+                          Add conditional expression support for macro actions
+                          Make notification messages hide on click
+                          Detect IP address change and redirect after save
+                          Improved error reporting
  * 1.5.7     21/09/2015   Fixes for network configuration.
                           Initial support for cloud modules in action builder.
                           ‘Run Macro’ buttons added.
