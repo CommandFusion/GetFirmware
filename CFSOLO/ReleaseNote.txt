@@ -4,6 +4,33 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.6.3    30/09/2015   1) Bug Fixes:
+ *                          a) Delete an action node from macro linked list will cause the rest of the macro not triggering. 
+ * 1.6.2    30/09/2015   1) Add new Common Argument Definitions:
+ *                          a) userVarMatch(VAR_NAME,STRING) - to Check if a user variable matches a given string value.
+ * 1.6.1    28/09/2015   1) Rename CFLink Command for User variables:
+ *                          a) QVARGET - get single user variable
+ *                          b) CVARSET - create, edit user variable 
+ *                          c) CVARCLR - clear all user variable 
+ *                          d) CVARDEL - delete single user variable 
+ *                       2) Enable auto reset of user variable memory when first time the device is configured. 
+ *                       3) Bug Fixes: 
+ *                          a) The Macro action never works when condition field is empty.
+ * 1.6.0    26/09/2015   Add support for New Rules Engine Logic (v2)
+ *                       1) User Variables:
+ *                          Max of 50 variables
+ *                          Max of 10 characters for each variable name.
+ *                          Max of 20 characters for each variable value.
+ *                          Ability to store any data in variable names, that can be compared in expressions.
+ *                          The following new cflink commands have been implemented for this purpose:
+ *                          a) QVARNAM - to query the value of a user variable
+ *                          b) CVARNAM - to create new or update (if already exist) user variable with written value.
+ *                          c) QVARLST - to query list of user variables in the storage (up to 50 variables)
+ *                       2) Conditional Actions:
+ *                          Conditional logic is added to each action within macros. 
+ *                       3) Common Argument Definitions:
+ *                          a) dryContactState(CARD, PORT) - Get the current state of a dry contact input
+ *                          b) userVar(VAR_NAME) - Return the value of a user variable by name.
  * 1.5.8    21/09/2015   Disable Auto-IP in TCPIP stack.    
  * 1.5.7    18/09/2015   Add support for CFG configuration command to configure all network settings in one command(CCFXCFG).
  * 1.5.6    21/08/2015   Minor Changes:
