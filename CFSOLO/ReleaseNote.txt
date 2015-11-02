@@ -4,6 +4,8 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.6.4    02/11/2015   1) Bug Fixes:
+ *                          a) SOLO freezes when writing new rules data.   
  * 1.6.3    30/09/2015   1) Bug Fixes:
  *                          a) Delete an action node from macro linked list will cause the rest of the macro not triggering. 
  * 1.6.2    30/09/2015   1) Add new Common Argument Definitions:
