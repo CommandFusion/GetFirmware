@@ -4,6 +4,10 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.6.6    19/11/2015   1) Added CCFXDBG and QCFXDBG to enable/disable debug mode. 
+ *                          When enabled, all requests to the cloud are logged via CFLink commands (on websocket, etc).
+ *                       2) Bug Fixes:
+ *                          a) custom HTTP GET requests (TCFXHTP) returns bad payload issues.    
  * 1.6.4    02/11/2015   1) Bug Fixes:
  *                          a) SOLO freezes when writing new rules data.   
  * 1.6.3    30/09/2015   1) Bug Fixes:
