@@ -4,6 +4,8 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.6.8    28/12/2015   1) Minor bug fixes for HTTP GET request. 
+ *                       2) customize strtok for parsing strings with consecutive delimiters.
  * 1.6.7    01/12/2015   Enhancements for HTTP requests client:
  *                       1) HTTP request timeout is set to 60 seconds. 
  *                       2) Whilst a request is in progress:
