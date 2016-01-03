@@ -4,6 +4,22 @@ CFSOLO - Config Web Pages
  *
  * Version   Date         Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.8.0     03/01/2016   New log with terminal-like commands and log filtering
+                          UI changes for schedules enabled/disabled state
+                          More reliable data loading on initial web page opening
+                          More reliable saving of macros/rules/schedules
+                          Add support for sorting macro actions
+                          Add module database support for rule search strings
+                          Fix for errors when no internet is available
+                          Show notifications when rules are triggered
+                          Initial support for CARD-COM4
+                          Allow setting DTR values for CARD-DALI2 commands
+                          Store unsaved changes if websocket disconnects to prevent data loss
+                          Error reporting to cloud for remote diagnostics
+                          Schedule date/time picker UI fixes
+                          Show download progress for firmware updates
+                          Show error message when HTTP request is in progress and attempting to start another
+                          Fixes for HTTP request command formatting
  * 1.6.6     07/10/2015   Add User Variable storage support
                           Add conditional expression support for macro actions
                           Make notification messages hide on click
