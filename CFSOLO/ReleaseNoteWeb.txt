@@ -4,6 +4,11 @@ CFSOLO - Config Web Pages
  *
  * Version   Date         Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.9.1     06/01/2016   Fixes for restoring IR Rules from cloud backups
+                          Add IR Rules to system restore process
+ * 1.9.0     06/01/2016   Added support for IR Rule management
+                          Show macro action details in duplication dialog
+ * 1.8.1     04/01/2016   Fixes for macro action handling when macro data is incomplete or invalid
  * 1.8.0     03/01/2016   New log with terminal-like commands and log filtering
                           UI changes for schedules enabled/disabled state
                           More reliable data loading on initial web page opening
