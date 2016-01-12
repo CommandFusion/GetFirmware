@@ -4,6 +4,11 @@ CFSOLO - Config Web Pages
  *
  * Version   Date         Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.9.2     12/01/2016   Add more friendly error messages
+                          Small change to make initialisation more reliable
+                          Add ability to convert from Pronto Hex format for IR Rule triggers
+                          Fix for firmware/web pages upate checker not finding correct versions in some cases
+                          Fix for network slot startup macro displaying incorrectly
  * 1.9.1     06/01/2016   Fixes for restoring IR Rules from cloud backups
                           Add IR Rules to system restore process
  * 1.9.0     06/01/2016   Added support for IR Rule management
