@@ -4,7 +4,6 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
- * 1.7.1    12/01/2016   Limit the websocket client's connection to 1 for webserver. 
  * 1.7.0    08/01/2016   Add support for IRRules Engine. 
  * 1.6.8    28/12/2015   1) Minor bug fixes for HTTP GET request. 
  *                       2) customize strtok for parsing strings with consecutive delimiters.
