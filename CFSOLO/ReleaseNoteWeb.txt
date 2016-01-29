@@ -4,6 +4,9 @@ CFSOLO - Config Web Pages
  *
  * Version   Date         Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.9.3     29/01/2016   Add support for editing IR Files
+                          Refresh network map on first load to ensure all nodes are visible
+                          Fixes for remote configuration connectivity
  * 1.9.2     12/01/2016   Add more friendly error messages
                           Small change to make initialisation more reliable
                           Add ability to convert from Pronto Hex format for IR Rule triggers
