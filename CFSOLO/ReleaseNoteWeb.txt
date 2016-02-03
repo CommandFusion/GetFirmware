@@ -4,6 +4,12 @@ CFSOLO - Config Web Pages
  *
  * Version   Date         Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.10.1    03/02/2016   Add support for increased network slot sizes (upcoming firmware)
+                          Add support for editing existing IR Files
+                          Add testing of IR file functions via specific IR ports on Solo
+                          Add testing of IR learning functions via specific IR ports on Solo
+                          Add better checks for DHCP and IP Address config changes with redirects after saving
+                          Minor UI updates and fixes
  * 1.9.4     01/02/2016   Fix for errors when restoring macros from backup
  * 1.9.3     29/01/2016   Add support for editing IR Files
                           Refresh network map on first load to ensure all nodes are visible
