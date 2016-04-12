@@ -1,0 +1,22 @@
+DIN-RY8
+
+ /******************************************************************************
+ *
+ * Version   Date        Comment
+ *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+  * 
+ * 1.1.0     12/04/2016  Enable firmware update over RS232/RS485 communication port. 
+ *                       Modify device linker file kseg1_data_mem's length. 
+ * 1.0.4     17/03/2016  RS232 and RS485 baud rate are set to 115kbps.
+ *                       Enable LED flashing for RS232 and RS485 activities. 
+ *                       Added CRLYPOS and QRLYPOS commands to query/set relays' power-on-state. 
+ * 1.0.3     16/03/2016  Introduce a one secs inter-command delay for TRLYCON
+ *                       to prevent false reading when evaluating the AC input state.
+ * 1.0.2     16/03/2016  Added RELAY conditional ON and OFF command (TRLYCON) to 
+ *                       set relay state based on AC Status read.
+ * 1.0.1     16/03/2016  Fixed message forwarding problem from downstream ports to 
+ *                       upstream ports.  
+ * 1.0.0     15/03/2016  DIN-RY8 firmware first release.
+ ******************************************************************************/
+
+
