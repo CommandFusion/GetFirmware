@@ -4,6 +4,18 @@ CFSOLO - Config Web Pages
  *
  * Version   Date         Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.10.5    21/04/2016   Add support for HTTP PUT requests
+                          Fix for HTTP POST requests
+                          Fix for loading IR files with same name as previously used
+                          Fix for loading multiple IR files into UI
+                          Better error checking for pasting Pronto CCF codes into IR learner
+                          Restore IR rules when restoring from backup
+                          UI fixes for date and time pickers in scheduler
+                          Fixes for schedule start date and time calculations
+                          Fixes for macro editing UI retaining correct info
+                          Fixes for macro action ordering
+                          Added websocket closure on browser navigation to ensure future connection
+                          Minor UI updates and fixes
  * 1.10.1    03/02/2016   Add support for increased network slot sizes (upcoming firmware)
                           Add support for editing existing IR Files
                           Add testing of IR file functions via specific IR ports on Solo
