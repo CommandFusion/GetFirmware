@@ -4,6 +4,25 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.9.2    19/04/2016   Minor bug fixes:
+ *                       Ethernet communication slots only work up to the 5 slots. It should be 10 slots instead.  
+ * 1.9.1    18/04/2016   Support POST and PUT for custom HTTP request.
+ * 1.9.0    30/03/2016   Fixed IR MEM sending problem.
+ *                       Enhancements for announce client:
+ *                       1) During announce, the response sent back from the server will be one or more CFLink formatted packets.
+ *                       2) announce immediately with the ID as one of the headers ?Last-ID? 
+ *                         when the response from server contains an ID other than 0.
+ *                       3) Added announce command TCFXANN. 
+ * 1.8.1    02/02/2016   Enhancements for HTTP webserver:
+ *                       1) Add a warning if the web socket is still connected. Only single webserver connection is allowed.
+ *                       2) Increase TCP socket connections from 2 to 3 to improve web loading performance. 
+ *                       3) ADD CFLinkID as a header for all HTTP requests. 
+ * 1.8.0    01/02/2016   1) Increase network slots from 5 to 10.
+ *                       2) Increase the max TCP Server incoming connections on port 10207 to 16 connections.  
+ * 1.7.3    14/01/2016   Minor bug fixes:
+ *                       The WHO message didn't send when remote config websocket is connected.   
+ * 1.7.2    14/01/2016   Minor bug fixes for cloud response handling and remote config.  
+ * 1.7.1    13/01/2016   Enable QCFXHNR and CCFXHNR for change address of remote config websocket.
  * 1.7.0    08/01/2016   Add support for IRRules Engine. 
  * 1.6.8    28/12/2015   1) Minor bug fixes for HTTP GET request. 
  *                       2) customize strtok for parsing strings with consecutive delimiters.
