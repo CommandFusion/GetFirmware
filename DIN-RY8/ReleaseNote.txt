@@ -4,7 +4,14 @@ DIN-RY8
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
-  * 
+ * 1.2.2     20/04/2016  Enable query of memory usage for file system using QCFXMEM.
+ *                       Minor fix on error reporting string.  
+ * 1.2.1     13/04/2016  Add support for New Rules Engine Logic (v2)
+ *                       1) User Variables:
+ *                       2) Conditional Actions:
+ *                       3) Common Argument Definitions:
+ *                       Add support for macros.
+ * 1.2.0     12/04/2016  Added support for rules and macros upload using commands. 
  * 1.1.0     12/04/2016  Enable firmware update over RS232/RS485 communication port. 
  *                       Modify device linker file kseg1_data_mem's length. 
  * 1.0.4     17/03/2016  RS232 and RS485 baud rate are set to 115kbps.
