@@ -4,6 +4,11 @@ DIN-RY8
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.2.3     03/05/2016  Add CFLink Command for User variables:
+ *                       a) QVARGET - get single user variable
+ *                       b) CVARSET - create, edit user variable 
+ *                       c) CVARCLR - clear all user variable 
+ *                       d) CVARDEL - delete single user variable 
  * 1.2.2     20/04/2016  Enable query of memory usage for file system using QCFXMEM.
  *                       Minor fix on error reporting string.  
  * 1.2.1     13/04/2016  Add support for New Rules Engine Logic (v2)
