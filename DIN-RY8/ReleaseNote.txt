@@ -4,6 +4,8 @@ DIN-RY8
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.2.4     04/05/2016  Add CCFXDID command for configuring device id.
+ *                       Minor fixes to turn on dry contact leds when the state is closed.  
  * 1.2.3     03/05/2016  Add CFLink Command for User variables:
  *                       a) QVARGET - get single user variable
  *                       b) CVARSET - create, edit user variable 
