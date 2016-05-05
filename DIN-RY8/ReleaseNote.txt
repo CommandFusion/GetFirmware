@@ -4,6 +4,11 @@ DIN-RY8
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.2.5     05/05/2016  Minor changes on configure/query device id:
+ *                       1. Add QCFXDID command for query device id.
+ *                       2. Response data of RCFXDID will be in the following format:
+ *                          a) <serial number>:<OldID> for CCFXDID reply. 
+ *                          b) <serial number> for QCFXDID reply. It has only one data.
  * 1.2.4     04/05/2016  Add CCFXDID command for configuring device id.
  *                       Minor fixes to turn on dry contact leds when the state is closed.  
  * 1.2.3     03/05/2016  Add CFLink Command for User variables:
