@@ -4,6 +4,13 @@ DIN-RY8
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.2.6     06/05/2016  Add expression parser for the following user-defined function:
+ *                       1. dryContactState(PortNum)
+ *                       2. loadState(PortNum)
+ *                       3. relayState(PortNum)
+ *                       4. userVar(varName)
+ *                       5. userVarMatch(varName,varString) 
+ *                       Change RCFXDID data format to <OldID>:<serial Number>
  * 1.2.5     05/05/2016  Minor changes on configure/query device id:
  *                       1. Add QCFXDID command for query device id.
  *                       2. Response data of RCFXDID will be in the following format:
