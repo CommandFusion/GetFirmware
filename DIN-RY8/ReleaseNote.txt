@@ -4,7 +4,34 @@ DIN-RY8
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
-  * 
+ * 1.2.7     12/05/2016  Fixed dry contact leds issue. 
+ * 1.2.6     06/05/2016  Add expression parser for the following user-defined function:
+ *                       1. dryContactState(PortNum)
+ *                       2. loadState(PortNum)
+ *                       3. relayState(PortNum)
+ *                       4. userVar(varName)
+ *                       5. userVarMatch(varName,varString) 
+ *                       Change RCFXDID data format to <OldID>:<serial Number>
+ * 1.2.5     05/05/2016  Minor changes on configure/query device id:
+ *                       1. Add QCFXDID command for query device id.
+ *                       2. Response data of RCFXDID will be in the following format:
+ *                          a) <serial number>:<OldID> for CCFXDID reply. 
+ *                          b) <serial number> for QCFXDID reply. It has only one data.
+ * 1.2.4     04/05/2016  Add CCFXDID command for configuring device id.
+ *                       Minor fixes to turn on dry contact leds when the state is closed.  
+ * 1.2.3     03/05/2016  Add CFLink Command for User variables:
+ *                       a) QVARGET - get single user variable
+ *                       b) CVARSET - create, edit user variable 
+ *                       c) CVARCLR - clear all user variable 
+ *                       d) CVARDEL - delete single user variable 
+ * 1.2.2     20/04/2016  Enable query of memory usage for file system using QCFXMEM.
+ *                       Minor fix on error reporting string.  
+ * 1.2.1     13/04/2016  Add support for New Rules Engine Logic (v2)
+ *                       1) User Variables:
+ *                       2) Conditional Actions:
+ *                       3) Common Argument Definitions:
+ *                       Add support for macros.
+ * 1.2.0     12/04/2016  Added support for rules and macros upload using commands. 
  * 1.1.0     12/04/2016  Enable firmware update over RS232/RS485 communication port. 
  *                       Modify device linker file kseg1_data_mem's length. 
  * 1.0.4     17/03/2016  RS232 and RS485 baud rate are set to 115kbps.
