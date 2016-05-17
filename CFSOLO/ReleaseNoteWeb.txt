@@ -4,6 +4,8 @@ CFSOLO - Config Web Pages
  *
  * Version   Date         Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.10.6    18/05/2016   Fixes for IR learning processing of long IR codes
+                          Fix for card addressing issues for second slot
  * 1.10.5    21/04/2016   Add support for HTTP PUT requests
                           Fix for HTTP POST requests
                           Fix for loading IR files with same name as previously used
