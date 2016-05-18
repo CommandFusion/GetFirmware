@@ -4,6 +4,9 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.9.4    18/05.2016   Fixes an issue which crashes SOLO when an invalid hostname is 
+ *                       set for cloud announce and reporting. 
+ * 1.9.3    09/05/2016   Enable IR code reporting using TCP socket 10207 
  * 1.9.2    19/04/2016   Minor bug fixes:
  *                       Ethernet communication slots only work up to the 5 slots. It should be 10 slots instead.  
  * 1.9.1    18/04/2016   Support POST and PUT for custom HTTP request.
