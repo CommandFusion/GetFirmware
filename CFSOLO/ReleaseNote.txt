@@ -4,7 +4,8 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
- * 1.9.4    18/05.2016   Fixes an issue which crashes SOLO when an invalid hostname is 
+ * 1.9.5    20/05/2016   Increase the number of concurrent macro to 10. Previously was 5.
+ * 1.9.4    18/05/2016   Fixes an issue which crashes SOLO when an invalid hostname is 
  *                       set for cloud announce and reporting. 
  * 1.9.3    09/05/2016   Enable IR code reporting using TCP socket 10207 
  * 1.9.2    19/04/2016   Minor bug fixes:
