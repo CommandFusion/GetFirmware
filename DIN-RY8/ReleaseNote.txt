@@ -4,6 +4,8 @@ DIN-RY8
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.2.8     21/05/2016  Some improvements on message handling to allow actions triggered by rules
+ *                       able to reach all the devices within the same network.  
  * 1.2.7     12/05/2016  Fixed dry contact leds issue. 
  * 1.2.6     06/05/2016  Add expression parser for the following user-defined function:
  *                       1. dryContactState(PortNum)
