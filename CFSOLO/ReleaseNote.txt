@@ -4,6 +4,8 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.9.6    27/05/2016   Fixes SOLO reboots' issue caused by expression parser.
+ *                       The expression_parser.c optimization level should be set to 0. 
  * 1.9.5    20/05/2016   Increase the number of concurrent macro to 10. Previously was 5.
  * 1.9.4    18/05/2016   Fixes an issue which crashes SOLO when an invalid hostname is 
  *                       set for cloud announce and reporting. 
