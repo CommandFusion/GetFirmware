@@ -4,7 +4,9 @@ DIN-RY8
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
-* 1.0.0     13/05/2016  DIN-RY5 firmware first release.
+ * 1.0.1     21/05/2016  Some improvements on message handling to allow actions triggered by rules
+ *                       able to reach all the devices within the same network.
+ * 1.0.0     13/05/2016  DIN-RY5 firmware first release.
  ******************************************************************************/
 
 
