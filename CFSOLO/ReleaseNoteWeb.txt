@@ -4,6 +4,8 @@ CFSOLO - Config Web Pages
  *
  * Version   Date         Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.10.8    01/06/2016   Fix for scheduler repeat until time not being loaded correctly from memory
+ * 1.10.7    26/05/2016   Fixes for restoring of network slot configs that were OFF or missing from backup file
  * 1.10.6    18/05/2016   Fixes for IR learning processing of long IR codes
                           Fix for card addressing issues for second slot
  * 1.10.5    21/04/2016   Add support for HTTP PUT requests
