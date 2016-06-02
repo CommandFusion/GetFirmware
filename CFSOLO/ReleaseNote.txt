@@ -4,6 +4,9 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.9.7    01/06/2016   Minor bug fixes: 
+ *                       1) Remote config client unable to connect. 
+ *                       2) RSOLANN replies will not logged to the cloud.  
  * 1.9.6    27/05/2016   Fixes SOLO reboots' issue caused by expression parser.
  *                       The expression_parser.c optimization level should be set to 0. 
  * 1.9.5    20/05/2016   Increase the number of concurrent macro to 10. Previously was 5.
