@@ -4,6 +4,26 @@ MINI-E
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.1.0     15/08/2016   Added features:
+ *                        1. Enable Net BIOS Name in this format "CF-serialnumber". 
+ *                        2. Allows user to erase all settings and return the unit to factory default settings by 
+ *                           pressing and holding the SETUP and RESET buttons simultaneously for 3 seconds.
+ *                        3. Allows user to assign/read a name to/from a device using CCFXNME/QCFXNME command. The configured name is limited to
+ *                           50 bytes would also be sent as part of the WHO announcements and replies.
+ *                        4. Enable ds1338 real-time clock driver to save/read clock info.
+ *                        5. Enable SNTP for clock synchronization.
+ *                        6. Allows user to set/read the time and date settings for the real time clock using CCFXTME/QCFXTME command.    
+ *                        7. Enable websocket's connection. 
+ *                        8. The following commands are supported:
+ *                           a) QCFXSRN - for query device's serial number.
+ *                           b) QCFXDID/CCFXDID - for query/change device id.
+ *                           c) TRLYSET/QRLYSTA - for relays' operation.
+ *                           d) QCFXMEM - for query memory usage
+ *                           e) CCFXCFG/QCFXCFG/CCFXUDB/CCFXGTW/CCFXDNS/CCFXSNM/CCFXIP  - for query/change network configuration. 
+ *                           f) QCFXMCR/CCFXMCD/CCFXMCW/QCFXMCL/TCFXRUN/TCFXSTP - for macros' operations.
+ *                           g) QCFXRLR/CCFXRLW/CCFXRLD - for rules' read/write operation.
+ *                           h) QCFXSCR/CMNESCW/CCFXSCD/RCFXSCT - for schedules' read/write operation
+ *                           i) CVARSET/QVARGET/QVARLST/CVARDEL/CVARDEL/CVARCLR - variable name operation.
  * 1.0.0     12/8/2016   MINI-E firmware first beta release.
  ******************************************************************************/
 
