@@ -4,6 +4,8 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.9.10   05/09/2016   Enable CCFXTME command to configure the time without supplying the year.
+ *                       This is for daylight savings adjustments. 
  * 1.9.9    06/06/2016   Enable query device id using QCFXDID command.
  * 1.9.8    02/06/2016   Prevent remote config client's socket from disconnecting 
  *                       when duplicated response code cloud = 1 are received. 
