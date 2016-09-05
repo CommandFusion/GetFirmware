@@ -1,9 +1,22 @@
-DIN-RY8
+DIN-RY5
 
  /******************************************************************************
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.1.1     16/06/2016  Minor fixes in CVARSET return message.
+ * 1.1.0     07/06/2016  Some enhancements in RS232/RS485 communication buffering:
+ *                       1. Increase receive buffer size from 2000 bytes to 4000 bytes.
+ *                       2. Increase transmit buffer size from 1000 bytes to 4000 bytes.
+ *                       3. Add a safety timer to monitor message out of synch problem.
+ *                          This will prevent corrupted cflink packets from hogging the receiving buffer.  
+ *                       Some fixes on the firmware:
+ *                       1. Firmware replies wrong error message during firmware update.
+ *                       2. Unexpected fail events in firmware update. Update to 1.1.0 will fix the problem.
+ *                       3. Expression parser failed to read port number correctly.    
+ *                       Notes:
+ *                       1. It is compulsory to use USB interface to upload the v1.1.0 firmware. Future's firmware upload
+ *                          can be done through USB or RS232.    
  * 1.0.1     21/05/2016  Some improvements on message handling to allow actions triggered by rules
  *                       able to reach all the devices within the same network.
  * 1.0.0     13/05/2016  DIN-RY5 firmware first release.
