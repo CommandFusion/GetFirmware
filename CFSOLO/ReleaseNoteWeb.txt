@@ -4,6 +4,9 @@ CFSOLO - Config Web Pages
  *
  * Version   Date         Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.11.1    05/09/2016   Added date/time actions to macro builder
+                          Added support for ignoring year/month/day when building time configuration commands
+                          Fix for time sync checkbox showing wrong state
  * 1.10.8    01/06/2016   Fix for scheduler repeat until time not being loaded correctly from memory
  * 1.10.7    26/05/2016   Fixes for restoring of network slot configs that were OFF or missing from backup file
  * 1.10.6    18/05/2016   Fixes for IR learning processing of long IR codes
