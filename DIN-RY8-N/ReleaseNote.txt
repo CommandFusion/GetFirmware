@@ -1,0 +1,61 @@
+DIN-RY8
+
+ /******************************************************************************
+ *
+ * Version   Date        Comment
+ *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.4.0     13/09/2016  Split firmware version for DIN-RY8 and DIN-RY8-N. 
+ * 1.3.1     16/06/2016  Minor fixes in CVARSET return message.  
+ * 1.3.0     07/05/2016  Some enhancements in RS232/RS485 communication buffering:
+ *                       1. Increase receive buffer size from 2000 bytes to 4000 bytes.
+ *                       2. Increase transmit buffer size from 1000 bytes to 4000 bytes.
+ *                       3. Add a safety timer to monitor message out of synch problem.
+ *                          This will prevent corrupted cflink packets from hogging the receiving buffer.  
+ *                       Some minor fixes on firmware:
+ *                       1. firmware replies wrong error message during firmware update.
+ *                       2. expression parser failed to read port number correctly. 
+ * 1.2.8     21/05/2016  Some improvements on message handling to allow actions triggered by rules
+ *                       able to reach all the devices within the same network.  
+ * 1.2.7     12/05/2016  Fixed dry contact leds issue. 
+ * 1.2.6     06/05/2016  Add expression parser for the following user-defined function:
+ *                       1. dryContactState(PortNum)
+ *                       2. loadState(PortNum)
+ *                       3. relayState(PortNum)
+ *                       4. userVar(varName)
+ *                       5. userVarMatch(varName,varString) 
+ *                       Change RCFXDID data format to <OldID>:<serial Number>
+ * 1.2.5     05/05/2016  Minor changes on configure/query device id:
+ *                       1. Add QCFXDID command for query device id.
+ *                       2. Response data of RCFXDID will be in the following format:
+ *                          a) <serial number>:<OldID> for CCFXDID reply. 
+ *                          b) <serial number> for QCFXDID reply. It has only one data.
+ * 1.2.4     04/05/2016  Add CCFXDID command for configuring device id.
+ *                       Minor fixes to turn on dry contact leds when the state is closed.  
+ * 1.2.3     03/05/2016  Add CFLink Command for User variables:
+ *                       a) QVARGET - get single user variable
+ *                       b) CVARSET - create, edit user variable 
+ *                       c) CVARCLR - clear all user variable 
+ *                       d) CVARDEL - delete single user variable 
+ * 1.2.2     20/04/2016  Enable query of memory usage for file system using QCFXMEM.
+ *                       Minor fix on error reporting string.  
+ * 1.2.1     13/04/2016  Add support for New Rules Engine Logic (v2)
+ *                       1) User Variables:
+ *                       2) Conditional Actions:
+ *                       3) Common Argument Definitions:
+ *                       Add support for macros.
+ * 1.2.0     12/04/2016  Added support for rules and macros upload using commands. 
+ * 1.1.0     12/04/2016  Enable firmware update over RS232/RS485 communication port. 
+ *                       Modify device linker file kseg1_data_mem's length. 
+ * 1.0.4     17/03/2016  RS232 and RS485 baud rate are set to 115kbps.
+ *                       Enable LED flashing for RS232 and RS485 activities. 
+ *                       Added CRLYPOS and QRLYPOS commands to query/set relays' power-on-state. 
+ * 1.0.3     16/03/2016  Introduce a one secs inter-command delay for TRLYCON
+ *                       to prevent false reading when evaluating the AC input state.
+ * 1.0.2     16/03/2016  Added RELAY conditional ON and OFF command (TRLYCON) to 
+ *                       set relay state based on AC Status read.
+ * 1.0.1     16/03/2016  Fixed message forwarding problem from downstream ports to 
+ *                       upstream ports.  
+ * 1.0.0     15/03/2016  DIN-RY8 firmware first release.
+ ******************************************************************************/
+
+
