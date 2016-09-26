@@ -4,6 +4,7 @@ DIN-RY5-N
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.2.1     26/09/2016  Stop error reporting if the targetted broadcast command is not recognized. 
  * 1.2.0     13/09/2016  Split firmware version for DIN-RY5 and DIN-RY5-N. 
  * 1.1.1     16/06/2016  Minor fixes in CVARSET return message.
  * 1.1.0     07/06/2016  Some enhancements in RS232/RS485 communication buffering:
