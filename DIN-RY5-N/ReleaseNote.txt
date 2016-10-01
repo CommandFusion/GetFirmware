@@ -4,6 +4,8 @@ DIN-RY5-N
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.3.0     30/09/2016  Enable factory reset function by pressing and holding SETUP button
+ *                       on device boot-up.     
  * 1.2.1     26/09/2016  Stop error reporting if the targetted broadcast command is not recognized. 
  * 1.2.0     13/09/2016  Split firmware version for DIN-RY5 and DIN-RY5-N. 
  * 1.1.1     16/06/2016  Minor fixes in CVARSET return message.
