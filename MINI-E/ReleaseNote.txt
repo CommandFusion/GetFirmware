@@ -4,6 +4,9 @@ MINI-E
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.7.0     23/11/2016   Enhancements:
+ *                        1) Increase the maximum connections for TCP Server port 10207 to 20.
+ *                        2) Enable serial port P02 transmit and receive functions.
  * 1.6.6     22/11/2016   Bug fixes: 
  *						  1. Reboot the device when BOOT Flag is set to 1 in TCFXANN. 
  * 1.6.5     26/10/2016   IO fixes for mode R to limit the max resistance value to 25500 ohm.
