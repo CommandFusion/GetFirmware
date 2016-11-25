@@ -4,6 +4,7 @@ MINI-E
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.7.1     25/11/2016   Enable notification messages for Ethernet Slot connection events.
  * 1.7.0     23/11/2016   Enhancements:
  *                        1) Increase the maximum connections for TCP Server port 10207 to 20.
  *                        2) Enable serial port P02 transmit and receive functions.
