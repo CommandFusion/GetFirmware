@@ -4,6 +4,10 @@ DIN-RY5-N
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 2.1.0b    14/12/2016  Enable command(CCFXDCP) to configure the dry contact ports. Each port 
+ *                       is able to be configured as NORMAL (default) or ADVANCE mode.
+ *                       In ADVANCE mode, the generation of CHA notification will base on the double-tap-time
+ *                       and hold-time.  
  * 2.0.0b    30/11/2016  Enable command to configure the communication properties for each control port.
  *                       Each port is able to be configured as BUS or EXT (third party control).  
  * 1.3.0     30/09/2016  Enable factory reset function by pressing and holding SETUP button
