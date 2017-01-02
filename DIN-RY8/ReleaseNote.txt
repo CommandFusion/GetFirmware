@@ -4,6 +4,10 @@ DIN-RY8
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 2.1.1b    02/01/2016  1. Minor fixes on usb transmit buffer overflows problem. The system will now wait 
+ *                       for the write operation to complete before sending the next bytes to 
+ *                       prevent packet loss during transmission. 
+ *                       2. Enable WHO reporting during device startup.
  * 2.1.0b    14/12/2016  Enable command(CCFXDCP) to configure the dry contact ports. Each port 
  *                       is able to be configured as NORMAL (default) or ADVANCE mode.
  *                       In ADVANCE mode, the generation of CHA notification will base on the double-tap-time
