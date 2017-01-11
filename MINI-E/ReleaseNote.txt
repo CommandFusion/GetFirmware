@@ -4,6 +4,19 @@ MINI-E
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.9.2     11/01/2016   Fixes and enhancements on remote config client:
+ *                        1) Provide more details in debug and error messaging.  
+ *                        2) Increase the remote config client's TX/RX FIFO to 3000 bytes.
+ *                        3) Fix websocket transmit error problem by taking into consideration 
+ *                           the control bytes when sending data. The length of data +
+ *                           control bytes sent can't be greater than available free space 
+ *                           in the TX buffer. 
+ * 1.9.1     09/01/2016   Minor improvements on cloud announce/logging and remote config url parsing function.  
+ * 1.9.0     22/12/2016   Increase the firmware update count down timer to 40 secs in webserver.
+ *                        CVARDEL and CVARCLR commands are being returned with garbage data. 
+ *                        Remove tcp port info from HRN replies for default setting (80 -http or 443 - https).
+ *                        Enable Debug mode for serial ports to allow the webserver's sockets to see all data flowing through the serial port via bridged TCP socket.  
+ * 1.8.0     15/12/2016   Enable SSL connection for cloud logging and announce client. 
  * 1.7.2     28/11/2016   Increase heap size to 250k bytes, and TCPIP stack dynamic ram to 200k bytes.
  * 1.7.1     25/11/2016   Enable notification messages for Ethernet Slot connection events.
  * 1.7.0     23/11/2016   Enhancements:
