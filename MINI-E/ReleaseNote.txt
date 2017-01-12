@@ -4,6 +4,7 @@ MINI-E
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.9.3     12/01/2016   Minor fixes on remote config client socket's receiving function. 
  * 1.9.2     11/01/2016   Fixes and enhancements on remote config client:
  *                        1) Provide more details in debug and error messaging.  
  *                        2) Increase the remote config client's TX/RX FIFO to 3000 bytes.
