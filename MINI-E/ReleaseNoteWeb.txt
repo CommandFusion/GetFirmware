@@ -1,0 +1,11 @@
+MINI-E - Config Web Pages
+
+ /******************************************************************************
+ *
+ * Version   Date         Comment
+ *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.13.5    30/01/2017   Fixed support for relay naming
+                          Support for websocket authentication with cloud
+                          Remove errornous IR ports being listed
+                          Add 12V trigger status/configuration support
+ ******************************************************************************/
