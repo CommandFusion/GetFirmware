@@ -4,6 +4,10 @@ MINI-E
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.9.7     31/01/2016   Enable TCFXSET command to set external 12vdc output. 
+ * 1.9.6     24/01/2016   Implement handshake with secret key to the websocket HNR connection.
+ * 1.9.5     19/01/2016   Fix IR ports not transmitting issues.
+ * 1.9.4     19/01/2016   Enable new io driver.
  * 1.9.3     12/01/2016   Minor fixes on remote config client socket's receiving function. 
  * 1.9.2     11/01/2016   Fixes and enhancements on remote config client:
  *                        1) Provide more details in debug and error messaging.  
