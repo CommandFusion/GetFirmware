@@ -4,6 +4,10 @@ MINI-E
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.10.0    08/02/2017   Fixes and enhancements:
+ *                        1) Remove all blocking codes for RTC and ADC driver.
+ *                        2) Enable hardware faults detection and reporting through UDP port 30000.
+ *                        3) Fix spiflash driver READ ID command in the init code.    
  * 1.9.7     31/01/2016   Enable TCFXSET command to set external 12vdc output. 
  * 1.9.6     24/01/2016   Implement handshake with secret key to the websocket HNR connection.
  * 1.9.5     19/01/2016   Fix IR ports not transmitting issues.
