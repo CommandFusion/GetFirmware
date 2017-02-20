@@ -4,6 +4,10 @@ MINI-E
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.11.0    20/02/2017   Add reconnect link to the "Already open in another tab" error
+ *                        when loading web configuration page. When firmware sees this URL requested, 
+ *                        it would force close any existing websocket connection 
+ *                        and then reply with a redirect 307 response back to the main root URL "/"
  * 1.10.0    08/02/2017   Fixes and enhancements:
  *                        1) Remove all blocking codes for RTC and ADC driver.
  *                        2) Enable hardware faults detection and reporting through UDP port 30000.
