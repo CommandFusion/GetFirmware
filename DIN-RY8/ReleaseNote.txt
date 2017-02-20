@@ -4,6 +4,8 @@ DIN-RY8
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 2.1.2b    20/02/2017  CHA event will not sent until a change in dry contact state actually happens, 
+ *                       ie. the state it is in on power-up is not a change. Only send if changed after first reading.
  * 2.1.1b    02/01/2016  1. Minor fixes on usb transmit buffer overflows problem. The system will now wait 
  *                       for the write operation to complete before sending the next bytes to 
  *                       prevent packet loss during transmission. 
