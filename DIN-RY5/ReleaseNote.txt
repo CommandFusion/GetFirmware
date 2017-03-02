@@ -4,6 +4,11 @@ DIN-RY5
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 2.2.2b    01/03/2017  Set optimization level = 0 for spi eeprom library.  
+ * 2.2.1b    01/03/2017  Minor fixes for verbose mode.  
+ * 2.2.0b    01/03/2017  Enable verbose mode (CCFXVRB/QCFXVRB)for simple or complete status reporting. 
+ *                       1 = simple reporting.
+ *                       2 = complete reporting.
  * 2.1.2b    20/02/2017  CHA event will not sent until a change in dry contact state actually happens, 
  *                       ie. the state it is in on power-up is not a change. Only send if changed after first reading.
  * 2.1.1b    02/01/2016  1. Minor fixes on usb transmit buffer overflows problem. The system will now wait 
