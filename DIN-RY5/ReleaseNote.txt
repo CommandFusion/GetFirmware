@@ -4,6 +4,9 @@ DIN-RY5
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 2.3.0b    14/03/2017  Rework for verbose mode. Enable individual bit setting for reporting.   
+ *                       0 = simple reporting.
+ *                       1 = complete reporting. 
  * 2.2.2b    01/03/2017  Set optimization level = 0 for spi eeprom library.  
  * 2.2.1b    01/03/2017  Minor fixes for verbose mode.  
  * 2.2.0b    01/03/2017  Enable verbose mode (CCFXVRB/QCFXVRB)for simple or complete status reporting. 
