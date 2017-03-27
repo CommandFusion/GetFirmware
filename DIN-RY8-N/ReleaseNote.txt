@@ -4,6 +4,15 @@ DIN-RY8-N
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 2.5.0b    27/03/2017  1. Minor rework to fix relay ports not closing all at once when
+ *                       relay interlocking is enabled. 
+ *                       2. Enable Math expressions with variable referencing for SPW (Serial Port Write).
+ *                       Expressions must be defined within double curly braces open and close characters.
+ * 2.4.0b    21/03/2017  Add CFLink Command for Relay Interlocking:
+ *                       a) CRLYILC - configure interlock group.
+ *                       b) QRLYILC - query interlock group. 
+ *                       c) CRLYILD - delete interlock group. 
+ *                       Refer to cflink protocol's document for more details.   
  * 2.3.0b    14/03/2017  Rework for verbose mode. Enable individual bit setting for reporting.   
  *                       0 = simple reporting.
  *                       1 = complete reporting. 
