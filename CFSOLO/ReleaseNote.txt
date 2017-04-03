@@ -4,6 +4,8 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.9.13b  03/04/2017   Fix for serial port PGM messages handling. This will enable SOLO to communicate 
+ *                       with DIN-RY devices when its onboard serial port configured as PGM mode. 
  * 1.9.12   19/10/2016   Enable ethernet communication slots to transmit more that 100 bytes of pass thru data.  
  * 1.9.11   05/09/2016   Enable CCFXTME command to configure the time without supplying the year/month/date.
  * 1.9.10   05/09/2016   Enable CCFXTME command to configure the time without supplying the year.
