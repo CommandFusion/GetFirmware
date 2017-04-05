@@ -4,6 +4,7 @@ DIN-RY8
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 2.5.2b    05/04/2017  Fix on relay pulse time conversion (string to integer). 
  * 2.5.1b    28/03/2017  Minor fix on interlock to close all relay ports at once
  *                       when interlock group is not assigned or disabled.
  * 2.5.0b    27/03/2017  1. Minor rework to fix relay ports not closing all at once when
