@@ -4,6 +4,12 @@ MINI-E
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.15.0b   07/04/2017   Add support for expressions to TCFXSND commands.
+ *                        Remove acs_cha and dci_cha from verbose mode report.
+ *                        Add support for input port changes in verbose mode.
+ *                        Fix QCFXVRB responds with RMINVRB.
+ *                        Fix CCFXVRB responds with incorrect error data if setting a non-existant mode 
+ *                        Allow interlock groups to be renamed by just sending the group ID, new name and enable flag.
  * 1.14.0b   06/04/2017   Enable Math expressions with variable referencing for SPW (Serial Port Write).
  *                        Expressions must be defined within double curly braces open and close characters. 
  *                        Added support for relay interlock. 
