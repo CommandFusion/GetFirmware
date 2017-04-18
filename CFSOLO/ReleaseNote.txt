@@ -4,7 +4,6 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
- * 1.9.14b  05/04/2017   Declare serial port <EndOfFrame> as volatile variable. 
  * 1.9.13b  03/04/2017   Fix for serial port PGM messages handling. This will enable SOLO to communicate 
  *                       with DIN-RY devices when its onboard serial port configured as PGM mode. 
  * 1.9.12   19/10/2016   Enable ethernet communication slots to transmit more that 100 bytes of pass thru data.  
