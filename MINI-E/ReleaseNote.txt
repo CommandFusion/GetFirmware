@@ -4,6 +4,8 @@ MINI-E
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.15.1b   27/04/2017   Fix relay power on state issues. 
+ *                        Fix CRLYILC is not clearing ports if configured ports are not given as part of the new command.
  * 1.15.0b   07/04/2017   Add support for expressions to TCFXSND commands.
  *                        Remove acs_cha and dci_cha from verbose mode report.
  *                        Add support for input port changes in verbose mode.
