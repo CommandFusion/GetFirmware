@@ -4,7 +4,8 @@ DIN-RY8
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
- * 2.5.3b    01/05/2017  Add private commands for bootloader testing.
+ * 2.5.3b    01/05/2017  Add private commands for bootloader testing. 
+ *                       Disable rules matching for looping messages.  
  * 2.5.2b    05/04/2017  Fix on relay pulse time conversion (string to integer). 
  * 2.5.1b    28/03/2017  Minor fix on interlock to close all relay ports at once
  *                       when interlock group is not assigned or disabled.
