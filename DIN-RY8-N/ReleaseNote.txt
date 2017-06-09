@@ -4,6 +4,10 @@ DIN-RY8-N
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 2.6.2b    08/06/2017  Fix CHA stop reporting after dry contact mode changes 
+ *                       for specific port.  
+ * 2.6.1b    07/06/2017  Generate individual CHA string reporting for each port.     
+ * 2.6.0b    07/06/2017  Add TIMER Mode for Dry Contact Input Configuration. 
  * 2.5.3b    01/05/2017  Add private commands for bootloader testing. 
  *                       Disable rules matching for looping messages.  
  * 2.5.2b    05/04/2017  Fix on relay pulse time conversion (string to integer). 
