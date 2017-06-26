@@ -4,6 +4,9 @@ MINI-E
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.17.0b   26/06/2017   Add 1-way serial data transmitting with IR ports.
+ *                        Add support to factory reset device using command. 
+ *                        Enable default settings for input ports.
  * 1.16.0b   15/05/2017   Rework on communication interface handling
  * 1.15.1b   27/04/2017   Fix relay power on state issues. 
  *                        Fix CRLYILC is not clearing ports if configured ports are not given as part of the new command.
