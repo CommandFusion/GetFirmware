@@ -4,6 +4,7 @@ MINI-E
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.17.3b   24/07/2017   Fix announce client's socket disconnection.
  * 1.17.0b   26/06/2017   Add 1-way serial data transmitting with IR ports.
  *                        Add support to factory reset device using command. 
  *                        Enable default settings for input ports.
