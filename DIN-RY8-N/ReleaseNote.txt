@@ -4,6 +4,11 @@ DIN-RY8-N
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 2.7.0b    31/07/2017  Add CFLink command for port naming operation:
+ *                       a) CRLYNAM/QRLYNAM - for relay port naming.
+ *                       b) CCFXNAM/QCFXNAM - for dry contact port naming.
+ *                       c) CCOMNAM/QCOMNAM - for serial port naming.
+ *                       d) CCFXNME/QCFXNME - for device naming.
  * 2.6.2b    08/06/2017  Fix CHA stop reporting after dry contact mode changes 
  *                       for specific port.  
  * 2.6.1b    07/06/2017  Generate individual CHA string reporting for each port.     
