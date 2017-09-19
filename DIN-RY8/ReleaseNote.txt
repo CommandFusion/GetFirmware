@@ -4,6 +4,9 @@ DIN-RY8
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 2.8.1b    19/09/2017  Minor fix on CCFXNAME for device naming. 
+ * 2.8.0b    14/09/2017  Minor fixes on communication handling functions. 
+ *                       Change all uarts' interrupt priority level to 4. 
  * 2.7.0b    31/07/2017  Add CFLink command for port naming operation:
  *                       a) CRLYNAM/QRLYNAM - for relay port naming.
  *                       b) CCFXNAM/QCFXNAM - for dry contact port naming.
