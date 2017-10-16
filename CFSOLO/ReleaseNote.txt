@@ -4,6 +4,14 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.9.20b  16/10/2017   Fix TIRXSND sending serial data chops off at a NULL byte.   
+ * 1.9.19b  25/09/2017   Minor fix on the TCFXSND string length calculation. 
+ * 						 Make sure the UDP socket has been opened and ARP has been resolved
+ *                       when transmitting data in UDPT mode, otherwise return error.   
+ * 1.9.18b  25/09/2017   Enable hardware faults detection and reporting through UDP port 30000.
+ * 1.9.17b  24/08/2017   Remove \x parser from websocket receiving function.  
+ * 1.9.16b  23/08/2017   Enable parser to translate \x as hexadecimal byte when sending 
+ *                       data using TCFXRUN.
  * 1.9.15b  06/06/2017   Fix serial third party RS232 mode.  
  * 1.9.14b  05/04/2017   Declare serial port <EndOfFrame> as volatile variable. 
  * 1.9.13b  03/04/2017   Fix for serial port PGM messages handling. This will enable SOLO to communicate 
