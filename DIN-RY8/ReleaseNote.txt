@@ -4,6 +4,14 @@ DIN-RY8
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 2.9.0b    29/11/2017  Add login for usb interface. 
+ *                       Add software option to configure the PORT2 (RS485_IN)
+ *                       as CFL(CFLINK). The firmware will cross check for 
+ *                       invalid port combinations and determine what changes are needed 
+ *                       to fully implement the new setting.
+ *                       For instance, if PORT3/PORT4 is at BUS and the new setting is PORT2 = CFL, 
+ *                       then PORT3/PORT4 must go to default (OFF).
+ *                       Fix wrong interrupt setting for CFL mode.
  * 2.8.1b    19/09/2017  Minor fix on CCFXNAME for device naming. 
  * 2.8.0b    14/09/2017  Minor fixes on communication handling functions. 
  *                       Change all uarts' interrupt priority level to 4. 
