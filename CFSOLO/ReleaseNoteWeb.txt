@@ -4,6 +4,16 @@ CFSOLO - Config Web Pages
  *
  * Version   Date         Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.18.4    19/01/2018   Added CARD-COM4 support
+                          Add ability to send escaped hex sequences as text
+                          Add ability to modify IR repeat counts
+                          Add log pinning
+                          Add IR and Serial copy buttons to copy the raw CFLink message to clipboard
+                          Fix for network slot configuration
+                          Fixed page title updating
+                          Fix for network map resizing
+                          IR conversion fixes
+                          More error checking on various user inputs
  * 1.11.1    05/09/2016   Added date/time actions to macro builder
                           Added support for ignoring year/month/day when building time configuration commands
                           Fix for time sync checkbox showing wrong state
