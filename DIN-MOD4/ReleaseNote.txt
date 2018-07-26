@@ -94,3 +94,23 @@ version 1.14.6
 
 version 1.14.7
 1. Fixed IR MEM database error.
+
+version 1.14.8
+1. Conditional commands allow an action to be sent based on the evaluation of a variable state.
+2. Added new commands for conditional and variable storage: TCFXCON, CCFXVAR, QCFXVAR
+
+version 1.14.9
+1. minor bug fixes in conditional. 
+
+version 1.14.10
+1. Increase variable storage to 676 variables, from AA to ZZ (case insensitive)
+
+version 1.14.11
+1. minor bug fixes in Rules
+
+version 1.14.12
+1. Enable stop all macros that are running using TCFXSTP
+
+version 1.15.0
+1. Add functional test mode. 
+2. Add driver support for SST26VF064B spiflash.
