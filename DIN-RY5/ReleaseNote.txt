@@ -4,6 +4,7 @@ DIN-RY5
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 2.9.2b    31/07/2018  Fix sending null bytes (\x00) issues using SPW command. 
  * 2.9.1b    31/01/2018  Add EXTERNAL_MODE_HALF_DUPLEX (EXH) option to serial port configuration. 
  *                       This allows the full-duplex RS422 ports communicate with third-party RS485 
  *                       (half-duplex) external control.
