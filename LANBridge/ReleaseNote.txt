@@ -1,4 +1,6 @@
 LANBridge
+Version 1.12.24
+1. Bug fix on Slot 1 handling.
 
 Version 1.0.4
 1.   Allows COM data to be routed to ethernet slot that is subscribed to CFLink slot in 232 mode.
