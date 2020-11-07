@@ -90,3 +90,38 @@ version 1.10.5b
 
 version 1.10.6
 1. Fixed Relay pulse timer overflow issue due to multiplication.
+
+version 1.11.0
+1. Conditional commands allow an action to be sent based on the evaluation of a variable state.
+2. Added new commands for conditional and variable storage: TCFXCON, CCFXVAR, QCFXVAR
+
+version 1.11.1
+1. minor bug fixes in conditional. 
+
+version 1.11.2
+1. Increase variable storage to 676 variables, from AA to ZZ (case insensitive)
+
+version 1.11.3
+1. minor bug fixes in Rules. 
+
+version 1.11.4
+1. Enable stop all macros that are running using TCFXSTP
+
+version 1.11.5
+1. Minor Fixes to enable device announce and rules action on boot-up
+
+version 1.11.6
+1. Add debounce to read steady state in dry contact mode.
+
+version 1.11.7
+1. Add driver support for SST26VF064B spiflash.
+
+version 1.11.8
+1. Bug fix on IR Driver. Buffer to store IRCode overflowed. Increase from 1500 to 4096 bytes 
+
+version 1.11.9b
+1. Added settings for RLYCHA reporting on each relay change event
+
+version 1.11.10b
+1. Bug fix
+  a) RRLYSTA shall reply once only

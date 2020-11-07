@@ -114,3 +114,25 @@ version 1.14.12
 version 1.15.0
 1. Add functional test mode. 
 2. Add driver support for SST26VF064B spiflash.
+
+version 1.15.1
+1. Execute WREN before initiating the ULBPR (Global Block-Protection Unlock) 
+   instruction for SST26VF064B.
+
+version 1.15.2
+1. Added support for serial number loading command to facilitate production.  
+
+version 1.15.3
+1. Add debounce to read steady state in dry contact mode.
+
+1.15.4
+1. Enable sending RRLYCHA response whenever relay state changed. 
+
+1.15.5b
+1. Bug fix on IR Driver. Buffer to store IRCode overflowed. Increase from 1500 to 4096 bytes 
+
+version 1.15.6b
+1. Added settings for RLYCHA reporting on each relay change event
+
+version 1.15.7b
+1. Fix Compilation error

@@ -1,4 +1,11 @@
 SW16
+20201104 Version 1.0.12b
+1. Bug fix on Rules, rules search engine is not working
+2. Implemented Rules v1.0.9b
+
+20200721 Version 1.0.11
+1. Firmware to support new SPI Flash, SST26VF064B_104I/SO
+
 Version 1.0.10
 1.	Rules V1.0.7 is implemented.
 	Solve bug on memory handling.
