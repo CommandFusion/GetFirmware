@@ -4,6 +4,8 @@ DIN-RY5-N
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 2.9.5     01/12/2020  1. Bug fix on Hardware version 4 detection
+ *                       2. Set default ID to 0x30 
  * 2.9.4     05/11/2020  Added support on S25FL128LA from Cypress  
  *                      Support on Hardware Revision 4
  * 2.9.3b    20/09/2020  Added support on IS25LP128F-RMLE (SPI Flash)
