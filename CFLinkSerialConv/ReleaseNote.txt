@@ -1,0 +1,6 @@
+CFLink Serial Converter
+Version 1.0.0
+1. Beta test first released.
+
+Version 1.0.1
+1. Bug fix on CFLink RAM SPI handling, where data will be missed.
