@@ -1,9 +1,12 @@
 DIN-RY8-N
 
- /******************************************************************************
+/******************************************************************************
  *
  * Version   Date        Comment
- *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 3.0.2b    14/02/2021  Beta Release of DIN-RY8-LM
+ * 3.0.1b    29/11/2020  Implemented User Variable, 30 variable, 10 bytes of name, 800 bytes of value, factory default required
+ * 3.0.0b    06/02/2020  DIN-RY8-LM Thailand Demo Firmware
  * 2.9.2b    31/07/2018  Fix sending null bytes (\x00) issues using SPW command. 
  * 2.9.1b    31/01/2018  Add EXTERNAL_MODE_HALF_DUPLEX (EXH) option to serial port configuration. 
  *                       This allows the full-duplex RS422 ports communicate with third-party RS485 
