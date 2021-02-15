@@ -4,6 +4,8 @@ CFSOLO - Config Web Pages
  *
  * Version   Date         Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 1.18.19   15/02/2021   Fix network map rendering
+                          Update error messages
  * 1.18.6    22/01/2018   Added engineering tests
                           Fixes for dry contact status updates on dashboard on load
  * 1.18.4    19/01/2018   Added CARD-COM4 support
