@@ -1,14 +1,13 @@
 LANBridge
-
-Version 1.12.27b 20210205
+v1.12.27 20210305
 1. Bug fix on Rules string matching
 
-Version 1.12.26b 20210202
+v1.12.26b 20210202
 1. Bug fix on SPI JEDEC ID Retrieval, should have a default value
 2. Bug fix on Rules. The CFLink payload in the rules shouldn't hex parsed
 3. Bug fix on Scheduler
 
-Version 1.12.25b 20210105
+v1.12.25b 20210105
 1. Must use legacy C library to solve 2020->2021 transition,
 https://www.microchip.com/forums/m653169.aspx?&tree=true
 
