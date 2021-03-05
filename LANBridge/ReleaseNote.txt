@@ -1,0 +1,241 @@
+LANBridge
+v1.12.27 20210305
+1. Bug fix on Rules string matching
+
+v1.12.26b 20210202
+1. Bug fix on SPI JEDEC ID Retrieval, should have a default value
+2. Bug fix on Rules. The CFLink payload in the rules shouldn't hex parsed
+3. Bug fix on Scheduler
+
+v1.12.25b 20210105
+1. Must use legacy C library to solve 2020->2021 transition,
+https://www.microchip.com/forums/m653169.aspx?&tree=true
+
+Version 1.12.24 20200721
+1. Added support on SPI flash SST26VF064B-104I/SO 
+
+Version 1.12.23c
+1. Bug fix on Rules Saving, refer to git released version 1.12.25 on Rules.c for more information
+
+Version 1.12.23
+1. SPI Flash optimisation caused rules file saving failed
+2. Disable code optimisation for SPI EEPROM, SPI Flash and SPI RAM
+
+Version 1.12.22
+1. Bug fix on TCP Passthrough mode. Null byte is omitted
+2. EEPROM version recovery
+
+Version 1.12.21
+1. Bug fix on TCP Passthrough mode. The payload was omitted
+
+Version 1.12.20
+1. Have to revert default IP, subnet mask, gateway, DNS back to original due to bootloader will change the settings.
+
+Version 1.12.19
+1. Bug fix on SCH file saving
+
+Version 1.12.18
+1. Added SRN command to set serial number of the device
+
+Version 1.12.17 final released
+1. Set default values of
+Default IP address to 192.168.1.207
+Default Subnet mask 255.255.255.0
+Default Default Gateway 192.168.1.1
+Default Primary DNS 8.8.8.8
+Default Secondary DNS	8.8.4.4
+
+Version 1.12.17e
+1. Implemented authentication process ATH, PWD commands implemented
+2. Only works on TCP 10207 at the moment
+3. Solve bug on CFRLS saving, where END command reply error
+4. Implemented CLANPWD blank payload (clear onboard password)
+5. Solve but on UDP Broadcast 10207. If it is disabled, it should be replying any message from UDP Port 10207
+
+Version 1.12.16
+1. Bug Fixes on circular buffer implementation
+
+Version 1.12.15
+1. Add ability for TME configuration to ignore any part of the command by replacing with X's
+
+Version 1.12.14
+1. Bug fix when saving DNS TCP Client
+
+Version 1.2.13
+1. LANBridge support DNS TCP Client
+
+Version 1.2.12
+1. Utilise the SPI RAM to increase TCP buffer.
+2. Device announce via COM mode if it is In PGM Mode
+3. LANBridge TX and RX buffer handling. Dynamic swapping based on free space available.
+
+Version 1.2.11
+1. ID [00] Don't need broadcast it to CFLink, but LANbridge needs to process the message.
+
+Version 1.2.10
+1. Replace Slot 1 circular buffer implementation
+2. QLANRLR handling
+3. CF Link bus fault turn off if matching ID received via PGM mode
+
+Version 1.2.9
+1. Data received from COM Port always reply to any ethernet slots that are subscribed to CF Link slot as well
+
+Version 1.2.8
+1. Added SPG Command
+
+Version 1.2.7
+1. R message should be sent out if there's a reply after message is processed
+
+Version 1.2.6
+1. Scheduler action should send out CF Link data, except R Message to COM port if it is in PGM mode
+
+Version 1.2.5
+1. Any CFLink traffic should be sent out to COM port if it is in PGM Mode
+
+Version 1.2.4
+1. Replication on SCH file saving.
+
+Version 1.2.3
+1. Bug fixes - PGM mode should reply to TCP slot
+
+Version 1.2.2
+1. R Reply shouldn't relay to CF Link network
+2. Retain Cron SPI Flash address to start address 0 to end address 0x400000
+3. in PGM mode,
+   1. if ID = FF, send to both serial port and CFLink
+   2. if ID = 00, send to just serial port
+   3. If ID = 02-EF, send to just serial port
+
+Version 1.2.1
+1. Implement SendCFLink485Message_NoAck for PGM mode bridging to CF Link network
+
+Version 1.2.0
+1. Serial Port bridging PGM mode implemented
+2. Solve bug on UDP Broadcast mode. Only last nibble is set to 255
+
+Version 1.1.1
+1. COM Port reply notifications should also be sent to any slots that are subscribed to CFLink
+
+Version 1.1.0
+1. SLS Command re-implemented.
+2. RLANSPR reply with local device sub id instead of broadcast ID
+3. Relocate SPI Flash address for scheduler to 0x00500000
+
+Version 1.0.4
+1.   Allows COM data to be routed to ethernet slot that is subscribed to CFLink slot in 232 mode.
+
+Version 1.0.3
+1.	Changes on Scheduler SPI Flash Addressing (NOT IMPLEMENTED YET)
+
+Version 1.0.2
+1.	Solve bugs when sending SLT, SLU command. These command will override the settings of previous saved SLS settings. Solve by saving at correct location on EEPROM.
+
+Version 1.0.1
+1.   Modify LANBridge version that is shown as system commander as old version
+2.   Standardise SLS reply command
+
+Version 1.0.0
+1.   Added automatic initialisation command being sent out when ethernet slot is connected to the host
+
+Version 0.1.7
+1.   Solve bug from migrating to new MPLAB X, changes on linker script
+
+Version 0.1.6
+1.   Solve bug on scheduler, where recurrence on one second is solved.
+2.   Solve bug on sending null terminated string on pass through mode.
+
+Version 0.1.5
+1.	UDP broadcast should set to 255.255.255.255
+
+Version 0.1.4
+1.	TLANSND Command Bug Fiz
+
+Version 0.1.3
+1.	SCH Bug fix
+
+Version 0.1.2
+1.	Rules V1.0.8 implemented.
+
+Version 0.1.1
+1.	SND Command include COM Slot
+2.	Include Factory reset settings for Scheduler
+
+Version 0.1.0
+1.	Sch V1.0.0 is included
+
+Version 0.0.35
+1.	Bug fix on ethernet slots. CFLink fault LED should not be lit up if the message is for itself.
+2.	Bug fix on message handling
+
+Version 0.0.34
+1.	LANBridge Ethernet Slot should response to message
+
+Version 0.0.33
+1.	UDP 10207 packet always broadcast
+
+Version 0.0.32
+1.	Partial Scheduler has been implemented
+	One time only, Daily and weekly with direct command supported
+
+Version 0.0.31
+1.	Rules 1.0.6 is implemented.
+2.	RLD command is implemented.
+2.	RLD command is implemented.
+3.	Improvement on serial data handling.
+ 
+Version 0.0.30
+1.	Rules 1.0.5.
+2.	wNumRulesAvailable is omitted.
+3.	Solve bugs on restore factory settings.
+4.	Solve bug on Rules File Retrieval.
+
+Version 0.0.29
+1.	Rules 1.0.4 is implemented.
+2.	System doesn't need to reset even though a new set of rules is updated
+
+Version 0.0.28
+1.	EEPROM versioning is implemented
+ 
+Version V0.0.27
+1.	Major rework on memory management
+2.	Slot 11 default port number is changed to 10207
+3.	Added default Slot 12 Settings
+
+Version 0.0.26
+1.	Rules command is changed, CCFXRLW is to write the Rules to the device,
+	while QCFXRLR is to read the rules from the device.
+	
+Version 0.0.25
+1.	Fixes in Rules.
+2.	LANBridge bugs on dynamic memory allocation.
+3.	Solve TCP Client reconnect timeout
+4.	Device announce based on TGT IDs
+5.	Rules v1.0.3 implemented
+6.	Should have set the rules validity in EEPROM to invalid Rules if the Rules Downloader is initiated
+
+Version 0.0.24
+1.	Added Rules V1.0.1
+Version 0.0.23
+1.	On board COM mode add, OFF mode
+2.	Solve bug on message Error Handling function
+3.	Solve bug in CLANSPC command
+4.	Solve bug in RLANSPC reply packet
+5.	Modify Setup Button during application run time, for on board COM Mode
+
+Version 0.0.22
+1.	Bug fix for Ethernet Slots pass through mode
+
+Version 0.0.21
+1.	Bug fix for TME command, should have offset the UTC
+2.	IP address bounding LED, reduce to 1s flash as per Jarrod request
+3.	Application specific EEPROM starts on 0x1000
+4.	Added DNS command, and NTP sync on TME command
+
+Version 0.0.20
+1.	Added TCP/IP type on SLT reply.
+
+Version 0.0.19
+1.	Overall functionalities have been implemented, except for
+	a.	MAC command is yet to implement
+	b.	Scheduler is yet to implement
+2.	Rules are included in both incoming and outgoing message but a full test is needed.
