@@ -1,4 +1,11 @@
 SW16
+20201129 Version 1.0.14b
+1) Increase heap size from 4096 to 6144 bytes
+
+20201125 Version 1.0.13b
+1) Rules message matching shall be implemented for macro, action command, before
+and after execution of the action commands.
+
 20201104 Version 1.0.12b
 1. Bug fix on Rules, rules search engine is not working
 2. Implemented Rules v1.0.9b
