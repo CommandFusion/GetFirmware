@@ -1,0 +1,41 @@
+MOD-COM4 & CARD-COM4
+
+/*............................................................................ v0.0.1
+first release
+  ............................................................................ v0.0.2
+1. Add handler to discard received message with double F5 on each port. 
+2. Allow DINMOD4 to reset COM4 with ResetEnabled pin.
+  ............................................................................ v0.0.3
+1. validate the mode and baud setting of each port when replying to RCOMSPC.
+   This is to make sure that the mode index always <=4 and baud index always <= 13
+2. Optimization is enabled for speed and code space.  
+ ............................................................................. v0.0.4
+1. remove optimization during compilation. Optimization will only be enabled after
+   throughout test.
+ ............................................................................. v0.0.5
+1. Bug fixed: String length is now determined by total CF_Length - 20, not '\0'.
+ ............................................................................. v0.0.6
+1. Bug fixed: X2DM4Q points to the wrong location in EDS. This is solved by fixing the 
+   EDS location for xmit_2DM4_queue_buf to 0x8000, and its size to 32k.
+2. Bug fixed: Activity LED display behaviour. 
+ ............................................................................. v0.0.7
+1. Bug fixed: Comment out the line to disable RX interrrupt in RS422 full duplex mode.
+.............................................................................  v1.0.0
+1. New feature: Added EEPROM support on CARD-COM4.
+   The new CARD-COM4 module is identical to legacy MOD-COM4 but with newly added onboard
+   EEPROM to save configuration setting.
+   The firmware version v1.0.0 and above is backward compatible for the old hardware.
+2. All \x string will be parsed to hexadecimal bytes prior sending to the COM Port.
+ .............................................................................  v1.0.1
+1. Bug fixed: Post increment bug on SPI_RMQ insert and remove pointers which causes
+               the pointers accessing out of bound elements.
+ .............................................................................  v1.1.0
+1. New feature: Added emulating Data EEPROM for both MOD-COM4 and CARD-COM4 to save
+ *              configuration setting. Must work in-tandem with DIN-MOD4_App_v2.0.0 above.
+ *              The earlier DIN-MOD4_App will save the COM4 settings onboard, but v2.0.0 above
+ *              will store the information on CARD itself. 
+ *              
+ 2021-11-23...................................................................  v1.1.1
+1. Bug fix: 
+ * Should pass through all incoming bytes even it is \xF5 to MOD4
+ * 0xF5 received in UART ISR will be translated to "\xF5"

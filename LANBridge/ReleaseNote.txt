@@ -1,4 +1,13 @@
 LANBridge
+v1.12.29b 20210927
+1. Bug fix on RLANSPR reply. Remove extra 0xF5 0xF5
+
+v1.12.28c 20210923 (Customise)
+1. To solve Ondrej request, where RLANSPR receive should be broadcast to the CFLink network
+
+v2.0.0b 20210530
+1. Added support on PIC24HJ256GP210A-I/PT
+
 v1.12.27 20210305
 1. Bug fix on Rules string matching
 
