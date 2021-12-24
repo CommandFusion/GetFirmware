@@ -1,4 +1,8 @@
 LANBridge
+v1.12.30b 20211224
+1. Bug fix on Rules Handling.
+2. RLANSRX reply is output to UDP10207
+
 v1.12.29b 20210927
 1. Bug fix on RLANSPR reply. Remove extra 0xF5 0xF5
 
