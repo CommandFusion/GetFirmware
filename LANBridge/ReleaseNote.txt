@@ -1,4 +1,7 @@
 LANBridge
+v1.2.30b 20220112
+1. Rename the firmware version from v1.12.xx to v1.2.xx
+
 v1.12.30b 20211224
 1. Bug fix on Rules Handling.
 2. RLANSRX reply is output to UDP10207
