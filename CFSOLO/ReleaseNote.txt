@@ -4,6 +4,7 @@ CFSOLO
  *
  * Version   Date        Comment
  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ * 1.9.25b  30/01/2022   Bug fix on Rules Search String matching. It should match with the length of the search string instead of null terminated string.
  * 1.9.24b  27/11/2021   Bug fix on IR_APPDATA AppData. Initialised all to 0 before passing to IR_App_CacheIRFLA
  * 1.9.23b  21/11/2020   Add rrlycha verbose feature
  * 1.9.22b  08/07/2020   Increase Buffer for IR Learning and Sending. TODO: May need to share the buffer
