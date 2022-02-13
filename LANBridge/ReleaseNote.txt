@@ -1,4 +1,8 @@
 LANBridge
+v1.2.31b 20220213
+1. Bug fix on rules engine search string, that enable the search of NULL byte
+2. RLANSPR whole string rules matching
+
 v1.2.30b 20220112
 1. Rename the firmware version from v1.12.xx to v1.2.xx
 
