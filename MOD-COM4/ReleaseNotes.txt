@@ -39,3 +39,6 @@ first release
 1. Bug fix: 
  * Should pass through all incoming bytes even it is \xF5 to MOD4
  * 0xF5 received in UART ISR will be translated to "\xF5"
+ 2022-01-22...................................................................  v1.1.2
+1. Bug fix: 
+ * U3RX interrupt calling parse_rx_bytes should be RX_FROM_UART_ISR instead of RX_FROM_TIMER_ISR
